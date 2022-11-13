@@ -1,0 +1,17 @@
+.header{
+    height: 80px;
+    background-color: rgba(0,245,236,0.85);
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    border: 2px solid black;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerContainer{
+    align-items: center;
+    justify-content: flex-end;
+}
