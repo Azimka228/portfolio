@@ -4,7 +4,7 @@ import styles from "../../styles.module.css"
 
 const Header = () => {
 	return (
-		<div className={s.header}>
+		<section className={s.header}>
 			<div className={`${styles.container} ${s.headerContainer}`}>
 				<nav className={s.navigation}>
 					<a href="">Home</a>
@@ -13,7 +13,7 @@ const Header = () => {
 					<a href="">FeedBack</a>
 				</nav>
 			</div>
-		</div>
+		</section>
 	);
 };
 

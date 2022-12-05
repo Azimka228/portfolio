@@ -1,0 +1,70 @@
+.project {
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.project:last-child {
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.icon {
+    height: 300px;
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+.text{
+    word-break: break-word;
+    text-align: center;
+    border: 1px solid blue;
+}
+.projectLink{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    align-self: center;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.projectLink:first-child{
+    margin-right: 20px;
+}
+
+.title{
+    word-break: break-word;
+    text-align: center;
+}
+
+
+.text p{
+    margin: 0;
+}
+.title p{
+    margin: 0;
+}

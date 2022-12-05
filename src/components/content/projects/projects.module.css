@@ -1,4 +1,4 @@
-.skillsContainer {
+.projectsContainer {
     display: flex;
 }
 
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .items {
         border: 1px solid black;
         width: 100%;
@@ -31,10 +31,10 @@
     }
 }
 
-.skillsSection {
+.projectsSection {
     width: 100%;
     min-height: 100vh;
-    background-color: aquamarine;
+    background-color: darkcyan;
     display: flex;
     align-items: center;
 }

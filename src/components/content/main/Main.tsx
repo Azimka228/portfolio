@@ -4,7 +4,7 @@ import styles from "../../../styles.module.css"
 
 const Main = () => {
 	return (
-		<div className={s.mainSection}>
+		<section className={s.mainSection}>
 			<div className={`${styles.container} ${s.MainContainer}`}>
 				<div className={s.text}>
 					<h3>Dmitry Kulhauchuk</h3>
@@ -17,7 +17,7 @@ const Main = () => {
 					<div>Photo</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

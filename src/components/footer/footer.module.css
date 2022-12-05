@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    position: relative;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    font: 300 40px/1.2 "Josefin Sans",sans-serif;
+}
+.footerSection{
+    background-color: hotpink;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.footerContainer div{
+   margin-top: 20px;
+}
+.footerContainer div:last-child{
+    margin-bottom: 20px;
+}
+
+.socialsBlock{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .socialsBlock{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.item{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #4a4a4a;
+    border-radius: 50%;
+}
+.item a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item a img{
+    width: 60%;
+}

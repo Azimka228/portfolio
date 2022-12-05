@@ -7,11 +7,20 @@
     align-items: center;
     justify-content: space-between;
 }
-.text{
 
+@media (max-width: 600px) {
+    .MainContainer{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.text{
     width: 300px;
     background-color: white;
 }
+
+
 .photo{
     width: 300px;
     background-color: white;

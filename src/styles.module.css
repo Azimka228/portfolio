@@ -1,4 +1,4 @@
-@media (max-width: 1600px) {
+
     .container {
         display: flex;
         max-width: 1070px;
@@ -9,4 +9,3 @@
         border: 1px solid black;
         flex-wrap: wrap;
     }
-}
