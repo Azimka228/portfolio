@@ -1,14 +1,19 @@
 .header{
     height: 80px;
-    background-color: rgba(0,245,236,0.85);
+    background: #fff;
     display: flex;
     align-items: center;
 }
 .navigation{
-    border: 2px solid black;
     width: 300px;
     display: flex;
     justify-content: space-between;
+}
+.navigation a {
+    color: #18191d;
+    font-size: 18px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
 }
 
 .headerContainer{

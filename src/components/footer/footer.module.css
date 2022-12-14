@@ -7,7 +7,7 @@
     font: 300 40px/1.2 "Josefin Sans",sans-serif;
 }
 .footerSection{
-    background-color: hotpink;
+    background: #212228;
 }
 .footerContainer{
     display: flex;

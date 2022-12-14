@@ -8,12 +8,26 @@
     width: 100%;
 }
 
+
 .title > h1 {
-    background-color: white;
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.title::after{
+    background-color: #888;
+    content: "";
+    height: 1px;
+    left: 50%;
+    margin-top: 130px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    width: 180px;
 }
 
 .items {
-    border: 1px solid black;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +36,6 @@
 }
 @media (max-width: 1000px) {
     .items {
-        border: 1px solid black;
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -34,7 +47,6 @@
 .projectsSection {
     width: 100%;
     min-height: 100vh;
-    background-color: darkcyan;
     display: flex;
     align-items: center;
 }

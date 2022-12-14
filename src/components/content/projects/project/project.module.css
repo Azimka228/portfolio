@@ -1,6 +1,5 @@
 .project {
     width: 500px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +10,6 @@
 }
 .project:last-child {
     width: 500px;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +35,6 @@
 .text{
     word-break: break-word;
     text-align: center;
-    border: 1px solid blue;
 }
 .projectLink{
     width: 150px;

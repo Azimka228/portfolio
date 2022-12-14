@@ -25,7 +25,7 @@
     width: 100%;
 }
 
-@media screen and (max-width: 626px) {
+@media screen and (max-width: 800px) {
     .form{
         display: flex;
         align-items: center;
